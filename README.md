@@ -17,10 +17,10 @@ Descrição do funcionamento(Sujeito a modificações): 1. Detecção em Campo (
 O monitoramento começa nos pontos críticos da cidade, onde unidades com Arduino estão instaladas.
 O Sensor e a Boia: A boia de água atua como um interruptor físico de alta precisão. Conforme o nível da água sobe em bueiros ou canais, a boia se desloca. Ao atingir uma altura pré-determinada, ela aciona o sensor, enviando um sinal elétrico imediato para o Arduino.
 
-2. Processamento e Inteligência (Backend)
+Processamento e Inteligência (Backend)
 Assim que o Arduino detecta a subida da boia, ele envia esse dado para uma API desenvolvida em Java.
 O Papel do Java: Este "cérebro" do sistema recebe os alertas de centenas de sensores simultaneamente. Ele valida a informação e a registra no Banco de Dados, criando um histórico em tempo real de quais ruas estão ficando intransitáveis.
 
-3. Visualização e Alerta (Frontend)
+Visualização e Alerta (Frontend)
 A camada final é onde o usuário interage com a solução através de uma interface intuitiva feita em HTML e CSS.
 O Mapa de Risco: O sistema consome os dados do banco e atualiza o mapa automaticamente. Se a boia de um bueiro subiu, o ponto correspondente no site muda de cor (ex: de verde para vermelho), avisando a população que aquele local oferece risco de alagamento.

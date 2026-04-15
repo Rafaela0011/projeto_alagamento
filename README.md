@@ -34,3 +34,4 @@ A camada final é onde o usuário interage com a solução através de uma inter
 O Mapa de Risco: O sistema consome os dados do banco e atualiza o mapa automaticamente. Se a boia de um bueiro subiu, o ponto correspondente no site muda de cor (ex: de verde para vermelho), avisando a população que aquele local oferece risco de alagamento.
 
 LINK Kanban: https://trello.com/invite/b/69c3c228687ddd7a668e7afd/ATTI1d07ded55f05020e8edd83f9ef8b0bb7CE2E105C/kanbanfloodpath
+LINK Principais pontos de alagamentos em São Carlos: https://tietejacare.com.br/wp-content/uploads/2024/07/Mapeamento-de-Areas-de-Alto-e-Muito-Alto-Risco-a-Deslizamentos-e-Inundacoes-Sao-Carlos-SP.pdf
